@@ -1,0 +1,51 @@
+@import 'globals';
+
+
+.crew__members-container {
+    height: 100%;
+    // border: 2px solid white;
+    padding: 0 2rem;
+    .crew__section {
+        width: 50%;
+        height: auto;
+        overflow: hidden auto;
+        margin: 2rem 0;
+        // border: 2px solid black;
+
+        .crew__header {
+            margin-bottom: 1rem;
+        }
+        .crew__member-table {
+            // padding: 0 2rem;
+            width: 100%;
+            border: none;
+            border-collapse: separate;
+            border-spacing: 4px; /* Set spacing between cells */
+            transition: border-color 0.3s, color 0.3s; /* Add transition effect */
+
+            th, td {
+                padding: 16px;
+                text-align: left;
+                border: 3px solid var(--secondary-clr);
+            }
+            th:nth-child(1),
+            td:nth-child(1) {
+                width: 100px; /* Set the width of the Name column */
+                border: 3px solid;
+                color: var(--secondary-clr);
+            }
+    
+            th:nth-child(2),
+            td:nth-child(2) {
+                width: 300px; /* Set the width of the Role column */
+                color: var(--secondary-clr);
+            }
+            tr:hover td {
+                border-color: var(--tertiary-clr);
+                color: var(--tertiary-clr);
+            }
+        }
+    }
+}
+
+
