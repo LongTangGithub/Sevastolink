@@ -64,20 +64,18 @@ body {
     -webkit-font-smoothing: antialiased;
     background-color: var(--primary-clr);
     font-family: 'ALGOLRegular', monospace;
-
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-div.seegson__container {
+.seegson__container {
     width: 90vw;
     height: 90vh;
     border: 2px solid var(--secondary-clr);
     -webkit-mask-image: linear-gradient(to bottom, #0005 50%, #000 50%);
     mask-image: linear-gradient(to bottom, #0005 50%, #000 50%);
-
     -webkit-mask-size: 100% 2px;
     mask-size: 100% 2px;
     text-shadow: 0 0 0.5rem;
@@ -91,46 +89,46 @@ div.seegson__container {
 }
 
 .sevastolink {
-    font : {
-        family: "New Lincoln Gothic BTW03UltBdIt";
-        size: 3rem;
-    }
+    font-family: "New Lincoln Gothic BTW03UltBdIt";
+    font-size: 3rem;
     margin-right: 3rem;
-        a {
-            text-transform: uppercase;
-            text-decoration: none;
-            color: var(--secondary-clr);
-            letter-spacing: 0.4rem;
-        }
 
+    a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--secondary-clr);
+        letter-spacing: 0.4rem;
+    }
 }
-
 
 .navigation {
     width: auto;
+
     ul {
         display: flex;
         list-style-type: none;
-        li{
+
+        li {
             margin-right: 5rem;
+
             a {
                 text-decoration: none;
             }
         }
-
     }
-
-
 }
 
 .seegson__nav {
     font-size: 2rem;
     color: var(--secondary-clr);
-        &:hover {
-            color: var(--tertiary-clr);
-        }
 
+    &:hover {
+        color: var(--tertiary-clr);
+    }
 }
+
+
+
 footer {
     display: flex;
     align-items: center;
@@ -139,8 +137,8 @@ footer {
 
 main {
     overflow: hidden;
+
     .main__header {
         color: var(--secondary-clr);
     }
 }
-

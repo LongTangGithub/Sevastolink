@@ -4,18 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Transformers Library -->
-    <script src="https://cdn.jsdelivr.net/npm/@huggingface/tokenizers"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@huggingface/model"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@huggingface/datasets"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@huggingface/transfomers"></script>
-
     <!-- JS File -->
-    <link rel="stylesheet" href="./dist/model.js" defer>
+    <!-- <script src="./src/model.js" defer></script> -->
 
     <link href="https://db.onlinewebfonts.com/c/8fe08fc98cc154aa6b0fe6490cb5aef0?family=New+Lincoln+Gothic+BTW03UltBdIt" rel="stylesheet">
     <link rel="stylesheet" href="./dist/crew.css">
-    <link rel="stylesheet" href="./dist/globals.css">
     <title>Sevastolink</title>
 </head>
 <body>
@@ -77,12 +70,13 @@
                 </article>
             </section>
             <section class="model__section">
-                <div id="model"></div>
+                <div id="model" class="image-xeno"></div>
             </section>
         </main>
         <footer>
             <p></p>
         </footer>
     </div>
+    <script src="./src/model.js"></script>
 </body>
 </html>
